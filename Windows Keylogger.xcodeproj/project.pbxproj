@@ -3,12 +3,8 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		4530881D21902C73001D22A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4530881C21902C73001D22A7 /* main.cpp */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4530881721902C72001D22A7 /* CopyFiles */ = {
@@ -24,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		4530881921902C73001D22A7 /* Windows Keylogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Windows Keylogger"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4530881C21902C73001D22A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4530882521902D78001D22A7 /* Keylogger */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Keylogger; sourceTree = "<group>"; };
+		4530882621902D78001D22A7 /* DecryptionTool */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DecryptionTool; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +54,8 @@
 		4530881B21902C73001D22A7 /* Windows Keylogger */ = {
 			isa = PBXGroup;
 			children = (
-				4530881C21902C73001D22A7 /* main.cpp */,
+				4530882621902D78001D22A7 /* DecryptionTool */,
+				4530882521902D78001D22A7 /* Keylogger */,
 			);
 			path = "Windows Keylogger";
 			sourceTree = "<group>";
@@ -97,7 +95,7 @@
 				};
 			};
 			buildConfigurationList = 4530881421902C72001D22A7 /* Build configuration list for PBXProject "Windows Keylogger" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,7 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4530881D21902C73001D22A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
